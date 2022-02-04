@@ -816,5 +816,12 @@
 		  "          "
 		],
 		"description": "datepicker"
-	  }
+	  },
+    "assets image": {
+  "prefix": "asset_image",
+  "body": [
+    "Image.asset(\"assets/simplpay.png\",)"
+  ],
+  "description": "assets image"
+}
 }
