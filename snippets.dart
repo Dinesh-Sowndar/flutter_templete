@@ -824,7 +824,7 @@
     "assets image": {
   "prefix": "asset_image",
   "body": [
-    "Image.asset(\"assets/simplpay.png\",)"
+    "Image.asset(\"assets/images/logo.png\",)"
   ],
   "description": "assets image"
 }
