@@ -32,6 +32,10 @@
 			"              width: MediaQuery.of(context).size.width,",
 			"              height: 100,",
 			"              decoration: BoxDecoration(",
+      " image: DecorationImage("
+            "image: AssetImage('assets/images/bulb.jpg'),"
+            "fit: BoxFit.cover,"
+        "  ),"
 			"                gradient: const LinearGradient(",
 			"                    begin: Alignment.topLeft,",
 			"                    end: Alignment.bottomRight,",
