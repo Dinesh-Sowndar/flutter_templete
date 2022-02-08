@@ -1,4 +1,4 @@
-package com.example.newone
+package com.example.templete
 
 import io.flutter.embedding.android.FlutterActivity
 
