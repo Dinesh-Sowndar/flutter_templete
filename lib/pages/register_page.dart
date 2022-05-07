@@ -16,7 +16,7 @@ class _RegisterPageState extends State<RegisterPage> {
   String? mobile, name, email, pass, cpass;
   bool showPass1 = true;
   bool showPass2 = true;
-  GlobalKey<FormState> _key = GlobalKey();
+  final GlobalKey<FormState> _key = GlobalKey();
   bool _validate = false;
   FocusNode node1 = FocusNode();
   FocusNode node2 = FocusNode();
