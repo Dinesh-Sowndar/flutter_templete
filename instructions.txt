@@ -6,3 +6,117 @@ flutter pub run flutter_native_splash:create
 
 flutter pub upgrade --null-safety
 
+
+
+
+cd ~
+rm -rf .gradle
+
+
+sudo nano /etc/paths 
+
+
+adb devices
+
+adb tcpip 5555
+
+adb connect 192.168.0.113:5555
+
+adb connect 192.168.174.4:5555
+
+adb connect 192.168.1.7:5555
+
+adb connect 25.216.174.41:5555
+
+adb kill-server
+
+-----------install apk via PC------------
+
+adb install -r d:\app.apk
+
+ adb install -r E:\Dinesh\voinr-admob\platforms\android\app\build\outputs\apk\debug\app-debug.apk
+
+adb install -r build/app/outputs/flutter-apk/app-release.apk
+
+
+Fbsixer@12345*#
+
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore fbsixer.keystore fbsixer-unsigned.apk fbsixer
+
+
+zipalign -v 4 fbsixer-unsigned.apk fbsixer_release.apk
+
+
+facebook login debug key===  keytool -exportcert -alias androiddebugkey -keystore "C:\Users\sy\.android\debug.keystore" | openssl sha1 -binary | openssl base64
+
+keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+
+
+google login debug key===    keytool -list -v \
+-alias androiddebugkey -keystore ~/.android/debug.keystore
+
+
+fj8/P2UmOV1fP15VPzI/AzEmP0INCg==    release key
+
+ADMpY4aU1oXsYF71g3HhK+28Uxw=        debug key
+
+
+
+ Webs@12345*#  brine matrimony keystore pass
+
+
+Webs@12345*# jodimilegi.jks password
+
+brinesoftwaresolutions@gmail.com
+webs1234!
+
+
+gitlab -- info@brinesoftsolutions.com    Webs@12345*#
+
+
+webs1234!   brinewebs@gmail.com pass
+
+keytool -genkey -v -keystore cmw.keystore -alias cmw -keyalg RSA -keysize 2048 -validity 10000
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore cmw.keystore app-release-unsigned.apk cmw
+
+zipalign -v 4 app-release-unsigned.apk cmw-release.apk
+
+
+
+Pixel_XL_API_28
+
+
+
+keytool -genkey -v -keystore tamil_quiz.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias tamil_quiz
+
+
+pass: Webs@12345*#
+
+brinesoftwaresolutions@gmail.com
+webs1234!
+
+
+http://leads.brinesoftsolutions.com/
+
+user : dinesh
+pass: Dinesh@12345*#
+
+https://www.brinesoftsolutions.com/webmail
+
+brinesoftsolutions.com/webmail
+user: sdinesh@brinesoftsolutions.com
+pass: Dinesh@12345*#
+
+brine lab - linkedin
+brinesoftsolutions@gmail.com
+webs1234!
+
+brine lab - facebook
+brinewebs@gmail.com
+Brine@12345*#
+
+
+
