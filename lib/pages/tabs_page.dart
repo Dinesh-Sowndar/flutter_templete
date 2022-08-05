@@ -47,20 +47,18 @@ class _TabsPageState extends State<TabsPage> {
           currentIndex: _selectedIndex,
           onTap: _onItemTapped,
           items: [
+            BottomNavigationBarItem(icon: const Icon(Icons.home)),
             BottomNavigationBarItem(
-                title: Text('Home'.tr), icon: const Icon(Icons.home)),
-            BottomNavigationBarItem(
-              title: Text('posts'.tr),
               icon: const Icon(Icons.post_add),
             ),
-            BottomNavigationBarItem(
-              title: Text('favourite'.tr),
-              icon: const Icon(Icons.favorite_outline),
-            ),
-            BottomNavigationBarItem(
-              title: Text('Setting'.tr),
-              icon: const Icon(Icons.settings),
-            ),
+            // BottomNavigationBarItem(
+            //   title: Text('favourite'.tr),
+            //   icon: const Icon(Icons.favorite_outline),
+            // ),
+            // BottomNavigationBarItem(
+            //   title: Text('Setting'.tr),
+            //   icon: const Icon(Icons.settings),
+            // ),
           ],
         ),
         body: IndexedStack(
